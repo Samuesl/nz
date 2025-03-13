@@ -60,6 +60,8 @@
         }).addTo(map);
         <!--Koordinate um 100el erweitert, damit der Marker in der Mitte sitzt-->
         var marker = L.marker([-36.831, 174.81]).addTo(map);
+        marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
+
     </script>
 </body>
 
