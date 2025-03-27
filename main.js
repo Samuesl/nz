@@ -8,7 +8,7 @@ let lng = 174.8;
 let zoom = 13;
 
 //Karte inititlaisieren
-let map = L.map('map').setView([lat, lng, zoom);
+let map = L.map('map').setView([lat, lng], zoom);
 
 //Hintergrundkarte realisieiren
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
