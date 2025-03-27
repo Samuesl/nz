@@ -223,7 +223,7 @@ for (let i=0; i<STOPS.length; i++) {console.log(i, STOPS[i].title);
             <li> Geogr. Länge: ${STOPS[i].lng.toFixed(5)}°</li>
         </ul>
     `);
-    //auf eigen Etappe Blicken und Popup öffnen
+    //auf eigene Etappe Blicken und Popup öffnen
 if (STOPS[i].user == "samuesl") {
     console.log("meine Etappe :-)")
     map.setView([STOPS[i].lat, STOPS[i].lng], STOPS[i].zoom);
