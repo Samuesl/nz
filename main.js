@@ -7,6 +7,15 @@ let lat = -36.83;
 let lng = 174.8;
 let zoom = 13;
 
+let stop ={
+    nr: 3,
+    title: "Auckland"
+    user: "samuesl",
+    lat: "lat",
+    lng: "lng",
+    zoom: "zoom",
+};
+
 //Karte inititlaisieren
 let map = L.map('map').setView([lat, lng], zoom);
 
@@ -29,3 +38,4 @@ marker.bindPopup(`
             <li> Geogr. Länge: ${lng.toFixed(5)}°</li>
         </ul>
 `).openPopup(); 
+
