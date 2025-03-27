@@ -207,9 +207,8 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
-<!--Koordinate um 100el erweitert, damit der Marker in der Mitte sitzt-->
 
-//Marker zeinchen
+//Marker zeichnen
 let marker = L.marker([stop.lat, stop.lng]).addTo(map);
 
 //Popup definieren und öffnen
